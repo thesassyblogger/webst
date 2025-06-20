@@ -1,0 +1,11 @@
+runtime: nodejs20
+
+entrypoint: node index.js
+
+instance_class: F1
+
+env_variables:
+  NODE_ENV: 'production'
+
+automatic_scaling:
+  max_instances: 2
